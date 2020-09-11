@@ -27,7 +27,7 @@ currency_type   = "$"   # Currency Symbol to show when calculating cost to run j
 
 ### Outputs
 gpio_heat = 23  # Switches zero-cross solid-state-relay
-heater_invert = 0 # switches the polarity of the heater control
+heater_invert = 1 # switches the polarity of the heater control
 
 ### Thermocouple Adapter selection:
 #   max31855 - bitbang SPI interface
