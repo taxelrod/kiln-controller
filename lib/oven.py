@@ -224,7 +224,8 @@ class TempSensorReal(TempSensor):
 
             maxtries = 5
             sleeptime = self.time_step / float(maxtries)
-            maxtemp = 0 
+            maxtemp = 0
+            temp = 0
             for x in range(0,maxtries):
                 try:
                     temp = self.thermocouple.get()
